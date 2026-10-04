@@ -1,5 +1,74 @@
 # E-Commerce Customer Behavior & Churn Prediction System
+---
 
+## Big Data Processing with PySpark
+
+Apache Spark / PySpark was integrated into the project to demonstrate scalable big-data processing.
+
+The cleaned Online Retail II dataset was loaded into a PySpark DataFrame and analyzed using Spark-based aggregations.
+
+### PySpark Operations
+
+The following analyses were performed using PySpark:
+
+- Transaction-level KPI analysis
+- Total revenue calculation
+- Customer revenue analysis
+- Country revenue analysis
+- Monthly revenue analysis
+- Product revenue analysis
+- Customer order frequency analysis
+
+### Pandas and PySpark Validation
+
+The total revenue calculated using Pandas was compared with the total revenue calculated using PySpark.
+
+Both processing approaches produced consistent revenue results, validating the Spark-based analytics workflow.
+
+### Why PySpark?
+
+PySpark provides a scalable processing framework that can be extended to distributed computing environments when datasets become too large for traditional single-machine processing.
+
+The PySpark component demonstrates how the project can be extended from traditional Python-based analytics to scalable big-data processing.
+
+### Big Data Workflow
+
+### Step 3 — Commit the change
+
+Scroll to the bottom.
+
+Commit message:
+
+```text
+Document PySpark big data processing
+```text
+Large E-Commerce Dataset
+          |
+          v
+   Data Preprocessing
+          |
+          v
+    PySpark DataFrame
+          |
+          v
+ Distributed Analytics
+          |
+    +-----+-----+
+    |           |
+    v           v
+Customer     Revenue
+Analysis     Analysis
+    |           |
+    +-----+-----+
+          |
+          v
+ Machine Learning
+          |
+          v
+  Churn Prediction
+          |
+          v
+  Power BI Dashboard
 ## Cognevance Level 3 – Advanced Big Data Analytics & Predictive Intelligence
 
 This project focuses on analyzing e-commerce customer behavior and predicting customer churn using data analytics, SQL, machine learning, and business intelligence techniques.
